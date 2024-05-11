@@ -1,38 +1,42 @@
 import { ArrowCircleDown, ArrowCircleUp, CurrencyDollar } from '@phosphor-icons/react'
+import { useContext } from 'react'
+import { TransactionsContext } from '../../contexts/TransactionsContext'
 import { SummaryCard, SummaryContainer } from './styles'
 
 export function Summary() {
-    return (
-        <SummaryContainer>
-            <SummaryCard>
-                <header>
-                    <span>Entradas</span>
+  const { transactions } = useContext(TransactionsContext)
 
-                    <ArrowCircleUp size={32} color="#00b37e" />
-                </header>
+  return (
+    <SummaryContainer>
+      <SummaryCard>
+        <header>
+          <span>Entradas</span>
 
-                <strong>R$ 17.400.00</strong>
-            </SummaryCard>
+          <ArrowCircleUp size={32} color="#00b37e" />
+        </header>
 
-            <SummaryCard>
-                <header>
-                    <span>Saídas</span>
+        <strong>R$ 17.400.00</strong>
+      </SummaryCard>
 
-                    <ArrowCircleDown size={32} color="#f75a68" />
-                </header>
+      <SummaryCard>
+        <header>
+          <span>Saídas</span>
 
-                <strong>R$ 17.400.00</strong>
-            </SummaryCard>
+          <ArrowCircleDown size={32} color="#f75a68" />
+        </header>
 
-            <SummaryCard $variant="green">
-                <header>
-                    <span>Total</span>
+        <strong>R$ 17.400.00</strong>
+      </SummaryCard>
 
-                    <CurrencyDollar size={32} color="#ffffff" />
-                </header>
+      <SummaryCard $variant="green">
+        <header>
+          <span>Total</span>
 
-                <strong>R$ 17.400.00</strong>
-            </SummaryCard>
-        </SummaryContainer>
-    )
+          <CurrencyDollar size={32} color="#ffffff" />
+        </header>
+
+        <strong>R$ 17.400.00</strong>
+      </SummaryCard>
+    </SummaryContainer>
+  )
 }
