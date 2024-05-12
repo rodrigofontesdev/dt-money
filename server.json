@@ -23,6 +23,22 @@
       "category": "Saúde",
       "price": 119,
       "createdAt": "2024-05-11T16:25:16.142Z"
+    },
+    {
+      "description": "Desenvolvimento de app",
+      "price": 30000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-05-12T01:08:07.070Z",
+      "id": 4
+    },
+    {
+      "description": "Iogurte de Banana",
+      "price": 4,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-05-12T01:24:09.404Z",
+      "id": 5
     }
   ]
 }
