@@ -27,3 +27,16 @@ The purpose of this project was learn about how to consume an API, improve and m
 
 # I've Learned
 
+> [!IMPORTANT]
+> TODO
+
+# Built With
+
+- React
+- TypeScript
+- Styled Components
+- JSON Server
+
+# License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
