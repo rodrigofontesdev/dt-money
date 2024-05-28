@@ -2,9 +2,9 @@
 
 # Money
 
-A simple budgeting app that lets you track your spending and income. Record all your transactions and obtain a summary.
+A simple budgeting app that allows you to track your income and expenses. Record all your transactions and obtain a summary of your finances.
 
-The purpose of this project was learn about how to consume an API, improve and measure performance in React applications.
+The purpose of this project was to learn about consuming APIs, improving performance and measuring performance in React applications.
 
 # Prerequisites
 
@@ -20,15 +20,20 @@ The purpose of this project was learn about how to consume an API, improve and m
 
 # Features
 
-- Add a new income or expense
+- Add new income or expense
 - Income and expense summary
 - Transactions history
 - Search for transactions
 
 # I've Learned
 
-> [!IMPORTANT]
-> TODO
+- How to inspect and identify performance problems with React Developer Tools
+- Why React components render
+- How the component rendering flow works in React
+- How to avoid unnecessary re-renders by selecting specific fields from a context with (`useContextSelector()`)
+- How and when to fix performance issues with (`useCallback()`, `memo()`, `useMemo()`)
+- How to Simulate a REST API with JSON Server
+- How to Make HTTP requests with Axios
 
 # Built With
 
